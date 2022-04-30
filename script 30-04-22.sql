@@ -774,14 +774,14 @@ GO
 
  insert into USUARIO(Documento,NombreCompleto,Correo,Clave,id_rol,Estado)
  values 
- ('05004123-8','ADMIN','admin@gmail.com','123',1,1)
+ ('admin','ADMIN','admin@gmail.com','123',1,1)
 
  GO
 
 
  insert into USUARIO(Documento,NombreCompleto,Correo,Clave,id_rol,Estado)
  values 
- ('05000000-9','JUANP','jperez@gmail.com','456',2,1)
+ ('juanp','JUANP','jperez@gmail.com','456',2,1)
 
  GO
 

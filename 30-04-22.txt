@@ -1,0 +1,29 @@
+   61  conda --info envs
+   62  git status
+   63  git init
+   64  git status
+   65  git add . 
+   66  git status
+   67  git commit -m "proyecto funcional base actualizada sin modulo de producto"
+   68  git status
+   69  curl -u vpineda7:%tokenGithub% https://api.github.com/user/repos -d "{\"name\":\"proyectoFinal_desktop_ETP4\"}"
+   70  Acurl -u vpineda7:%tokenGithub% https://api.github.com/user/repos -d "{\"name\":\"proyectoFinal_desktop_ETP4\"}"
+   71  curl -u vpineda7:%tokenGithub% https://api.github.com/user/repos -d "{\"name\":\"proyectoFinal_desktop_ETP4\"}"
+   72  curl -u vpineda7:%tokenGithub% https://api.github.com/user/repos -d "{\"name\":\"proyectoFinal_desktop_ETP4\"}
+
+
+echo 
+
+   73  echo $tokenGithub
+   74  cls
+   75  ls
+   76  Acurl -u vpineda7:$tokenGithub https://api.github.com/user/repos -d "{\"name\":\"proyectoFinal_desktop_ETP4\"}"
+   77  curl -u vpineda7:$tokenGithub https://api.github.com/user/repos -d "{\"name\":\"proyectoFinal_desktop_ETP4\"}"
+   78  git remote add origin "https://github.com/vpineda7/proyectoFinal_desktop_ETP4"
+   79  git remote -v
+   80  git push origin master 
+   81  git status
+   82  vim .gitignore
+   83  git push origin master 
+   84  history 25
+   85  history 25 > 30-04-22.txt

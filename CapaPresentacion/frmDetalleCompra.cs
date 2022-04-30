@@ -26,6 +26,8 @@ namespace CapaPresentacion
         private void btnbuscar_Click(object sender, EventArgs e)
         {
             Compra oCompra = new CN_Compra().ObtenerCompra(txtbusqueda.Text);
+            //Console.WriteLine("test console: "+ txtbusqueda.Text);
+            Console.WriteLine("test console: "+ oCompra.NumeroDocumento);
 
             if (oCompra.IdCompra != 0) {
 
